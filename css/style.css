@@ -220,6 +220,8 @@ section.contact-me i {
   section#main-content {
     background: none;
     height: auto;
+    max-width: 95%;
+    margin: 0 auto;
   }
   footer {
     position: static;
