@@ -91,6 +91,7 @@ header {
 
 .title {
   font-size: 20px;
+  font-style: italic;
 }
 .title-name {
   font-size: 26px;
@@ -103,10 +104,10 @@ section.about-me {
 }
 footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
-  height: 70px;
+  height: 90px;
 }
 section.about-me h1 {
   text-align: center;
@@ -220,8 +221,6 @@ section.contact-me i {
   section#main-content {
     background: none;
     height: auto;
-    max-width: 95%;
-    margin: 0 auto;
   }
   footer {
     position: static;
@@ -239,5 +238,10 @@ section.contact-me i {
   }
   section.about-me {
     height: 135px;
+  }
+  section.about-me,
+  section.contact-me {
+    max-width: 95%;
+    margin: 0 auto;
   }
 }
